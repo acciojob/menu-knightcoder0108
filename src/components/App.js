@@ -56,7 +56,7 @@ function App() {
               <article
                 key={id}
                 className="menu-item"
-                data-test-id={menu-item-${category}}
+                data-test-id={`menu-item-${category}`}
               >
                 <img src={img} alt={title} className="photo" />
                 <div className="item-info">
